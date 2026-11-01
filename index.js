@@ -1,3 +1,4 @@
+/* Powered by CodeByTushu | Developed by Tushpendra Kumar | https://codebytushu.com */
 (() => {
     let _listeners = [];
     const game = document.querySelector(".wordle"),
