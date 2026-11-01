@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Game-Wordle%20Clone-538D4E?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Powered%20by-CodeByTushu-FFC400?style=for-the-badge" />
 </p>
 
 <p align="center">
@@ -19,13 +19,13 @@
 
 ---
 
-## 📌 Overview
+## 📌 Executive Overview
 
 A web implementation of the viral word puzzle game **Wordle**. Players have 6 chances to guess a secret 5-letter word, with dynamic color feedback indicating letter accuracy.
 
 ---
 
-## ✨ Key Features
+## ✨ Key Features & Capabilities
 
 - **Official Color Feedback System:** Green (Correct spot), Yellow (Wrong spot), and Gray (Not in word).
 - **Interactive On-Screen & Physical Keyboard:** Seamless input handling supporting both physical keyboard typing and on-screen button taps.
@@ -34,43 +34,81 @@ A web implementation of the viral word puzzle game **Wordle**. Players have 6 ch
 
 ---
 
-## 💻 Tech Stack & Architecture
+## 📁 Detailed Project & File Structure
+
+An organized overview of how files and directories are structured in this project:
+
+```
+Wordle-Game-Clone/
+├── index.html              # 6-row 5-letter game board grid & on-screen virtual keyboard markup
+├── index.css               # 3D tile flip transforms, color status classes & modal styles
+├── index.js                # Game engine, dictionary verification, guess evaluation & state manager
+└── README.md               # Game rules, architectural logic & scoring mechanics
+```
+
+---
+
+## ⚡ Architecture & Branding
+
+This software project is engineered as an official component within the **CodeByTushu** developer ecosystem.
+- **Engineered by:** **Tushpendra Kumar**
+- **Official Ecosystem:** [CodeByTushu](https://codebytushu.com)
+- **YouTube Tutorials:** [@codebytushu](https://www.youtube.com/@codebytushu)
+- **Powered by:** **CodeByTushu** • *Innovate. Develop. Succeed.*
+
+---
+
+## 💻 Tech Stack & Dependencies
 
 - **Game Engine:** Vanilla JavaScript Game State Logic
 - **Styling & UI:** CSS3 Grid, 3D Card Flip Transforms, Responsive Mobile Layout
 
 ---
 
-## 🚀 Getting Started
+## 🚀 How to Run & Explore
 
-### Prerequisites
-Modern web browser (Google Chrome, Firefox, Safari, Edge).
-
-### Installation & Setup
+### 1. Clone this repository
 ```bash
-# 1. Clone this repository
 git clone https://github.com/Tushpendra-Kumar/Wordle-Game-Clone.git
-
-# 2. Navigate into project directory
 cd Wordle-Game-Clone
-
-# 3. Open in browser or live server
-# Simply open index.html in your preferred browser
 ```
+
+### 2. Launch
+- **Web Application / HTML:** Open `index.html` (or main HTML entrypoint) directly in any modern browser (Chrome, Edge, Firefox, Safari) or run via VS Code Live Server.
+- **Node / Python Projects:** Follow the respective package installation commands (`npm install` or `pip install -r requirements.txt`).
+
+---
+
+## 💖 Community & Open-Source Support
+
+If this open-source project or **CodeByTushu** educational resources have helped you, consider supporting platform server hosting:
+
+<p align="center">
+  <a href="https://codebytushu.com/Leetcode/donate.php">
+    <img src="https://img.shields.io/badge/Sponsor%20via%20CodeByTushu-Donate%20Now-ffc400?style=for-the-badge&logo=kofi&logoColor=black" alt="Donate to CodeByTushu"/>
+  </a>
+</p>
 
 ---
 
 ## 👨‍💻 Author & Engineering Leadership
 
-**Tushpendra Kumar**  
-*Software Developer & Founder @ [CodeByTushu](https://codebytushu.com)*  
-- 📍 Noida, Uttar Pradesh, India  
-- 🌐 Website: [codebytushu.com](https://codebytushu.com)  
-- 📺 YouTube: [@codebytushu](https://www.youtube.com/@codebytushu)  
-- 💼 LinkedIn: [Tushpendra Kumar](https://www.linkedin.com/in/tushpendra-kumar-08a56925b/)  
+<p align="center">
+  <strong>Tushpendra Kumar</strong><br>
+  <em>Software Developer &amp; Founder @ <a href="https://codebytushu.com">CodeByTushu</a></em><br>
+  📍 Noida, Uttar Pradesh, India
+</p>
+
+<p align="center">
+  <a href="https://codebytushu.com"><img src="https://img.shields.io/badge/Website-codebytushu.com-0ea5e9?style=for-the-badge&logo=safari&logoColor=white" alt="Official Website"/></a>
+  <a href="https://www.youtube.com/@codebytushu"><img src="https://img.shields.io/badge/YouTube-@codebytushu-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
+  <a href="https://www.linkedin.com/in/tushpendra-kumar-08a56925b/"><img src="https://img.shields.io/badge/LinkedIn-Tushpendra%20Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile"/></a>
+  <a href="mailto:codebytushu@gmail.com"><img src="https://img.shields.io/badge/Email-codebytushu%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+</p>
 
 ---
 
 <p align="center">
-  <sub>Part of the <strong>CodeByTushu</strong> Open Source Developer Ecosystem • <em>Innovate. Develop. Succeed.</em></sub>
+  <strong>Powered by CodeByTushu</strong> • <em>Innovate. Develop. Succeed.</em><br>
+  <sub>&copy; 2026 CodeByTushu. All Rights Reserved. Engineered with ❤️ by <strong>Tushpendra Kumar</strong>.</sub>
 </p>
